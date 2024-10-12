@@ -3,13 +3,13 @@ repos:
     hooks:
       - id: ruff
         name: ruff
-        entry: ruff check
+        entry: uv run ruff check
         language: python
         types: [python]
         args: [--select, I, --fix]
       - id: ruff-format
         name: ruff-format
-        entry: ruff format
+        entry: uv run ruff format
         language: python
         types: [python]
 -   repo: local
