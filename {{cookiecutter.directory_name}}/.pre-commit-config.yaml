@@ -16,7 +16,7 @@ repos:
     hooks:
     - id: interrogate
       name: interrogate
-      entry: poetry run interrogate
+      entry: uv run interrogate
       language: system
       types: [python]
       args: [src, -v, -i]
