@@ -1,6 +1,7 @@
 {
     "directory_name": "DS_project",
-    "python_version": "=>3.10",
+    "python_version": ">=3.12",
     "project_name": "default_project",
-    "project_description": "default_description"
+    "project_description": "default_description",
+    "target_python_version": "py312"
 }
